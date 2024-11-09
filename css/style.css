@@ -1,0 +1,338 @@
+/* Global settings and blocks */
+
+body {
+    font-family: Manrope, sans-serif;
+}
+
+.button{
+    /* display: inline-block; */
+    width:min-content;
+    text-wrap: nowrap;
+    color: #fff;
+    background: #FF6433;
+    border-radius: 12px;
+    text-align: center;
+    padding: 16px 40px;
+    line-height: 175%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -3%;
+    margin-bottom: 32px;
+}
+
+/* --------------------------- */
+/* Header top */
+
+.container {
+    font-weight: 600;
+    width: 100%;
+    max-width: calc(100% - 640px);
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 18px 0px;
+}
+
+.logo {
+    margin-right: 25px;
+}
+
+.logo__image-link {}
+
+.nav {}
+
+.nav_and_assistance {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.nav__items {
+    display: flex;
+}
+
+.nav__items-link {
+    margin-right: 40px;
+}
+
+.nav__items-link:last-child {
+    margin-right: 0px;
+}
+
+.separator {
+    margin: 6px 32px;
+    width: 1px;
+    height: 42px;
+    background-size: 1px;
+    background: #939191;
+    opacity: 30%;
+}
+
+.assisance-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.assisance-button {
+    margin-right: 14px;
+}
+
+.assistacne-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assistance-text {
+    color: #939191;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.assisance-number {
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.header__body {}
+
+/* ---------------------------- */
+/* Header body */
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.left-content {}
+
+.header__body-buttons {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.video-button {
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.video-button__image {
+    margin-right: 8px;
+}
+
+.video-button__text {}
+
+.schedule_content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.schedule_content__clock-image {
+    margin-right: 13px;
+}
+
+.schedule_content__texts {}
+
+.schedule_content-text {
+    color: #939191;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.schedule_content-schedule {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.right-content {}
+
+/* ----------------------------------------------- */
+/* Offer section */
+
+.offer-section {
+    background-color: #F2F2F2;
+    margin-bottom: 134px;
+}
+
+.offer-section>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-title {
+    margin-top: 128px;
+    margin-bottom: 64px;
+}
+
+.sup-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+
+.main-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+}
+
+.block-services {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.service-text {
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+
+/* Здесь кастыль, надо подумать, как сделать все услуги, равноудаленно друг от друга, чтобы помещалось в две строчки */
+.block-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    width: 312px;
+    height: 232px;
+    transition: background-color .6s;
+}
+
+.block-service:last-child {
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.block-service:hover {
+    color: #fff;
+    background-color: #FF6433;
+    /* Цвет фона */
+}
+
+.block-service:hover .svg-path {
+    fill: #fff;
+    /* Цвет SVG при наведении */
+}
+
+.block-button-next {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-bottom: 128px;
+}
+
+.button-next__text {
+    margin-right: 8px;
+}
+
+/* --------------------------------------------- */
+/* We follow section */
+
+.we-follow-section__inner {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 134px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 131px;
+}
+
+.we-follow__title {}
+
+.we-follow__text {
+    line-height: 28px;
+    opacity: 60%;
+    max-width: 437px;
+}
+
+.right-content {
+    display: flex;
+}
+
+.block-steps {
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.block-step {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: flex-start;
+}
+
+.block-step__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.step-number{
+    margin-bottom: 16px;
+}
+
+.block-step__texts {}
+
+.block-step__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -3%;
+    text-wrap: nowrap;
+}
+
+.block-step__text {
+    font-size: 18px;
+    line-height: 175%;
+    opacity: 60%;
+}
+
+/* ------------------------------ */
+/* Get in touch section */
+
+.get_in_touch {
+    position: relative;
+}
+
+.get_in_touch_inner {
+    position:absolute;
+    left: -0%;
+    display: flex;
+    justify-content: space-between;
+}
